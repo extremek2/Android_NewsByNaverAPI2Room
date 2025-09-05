@@ -12,6 +12,7 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -32,6 +33,7 @@ fun NewsListScreen(
     query: String
     ) {
     val newsList by viewModel.newsList.collectAsState()
+    val daonewsList by viewModel.daonewsList.collectAsState()
 
 
     LaunchedEffect(Unit) {
@@ -42,13 +44,14 @@ fun NewsListScreen(
             .fillMaxSize()
             .padding(16.dp)
     ) {
+
         //newsList 영역
         LazyColumn (
             modifier = Modifier
                 .fillMaxSize()
                 .padding(8.dp)
         ) {
-            items(newsList) { news ->
+            items(daonewsList) { news ->
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()

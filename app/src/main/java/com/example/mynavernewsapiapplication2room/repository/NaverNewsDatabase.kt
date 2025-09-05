@@ -7,7 +7,8 @@ import androidx.room.RoomDatabase
 
 @Database(
     entities = [NaverNews::class],
-    version = 1
+    version = 3,
+    exportSchema = false
 )
 abstract class NaverNewsDatabase: RoomDatabase() {
     abstract fun naverNewsDao() : NaverNewsDao
@@ -21,7 +22,8 @@ abstract class NaverNewsDatabase: RoomDatabase() {
                     context.applicationContext,
                     NaverNewsDatabase::class.java,
                     "navernews_db"
-                ).build().also { INSTANCE = it }
+                ).fallbackToDestructiveMigration()
+                    .build().also { INSTANCE = it }
             }
     }
 }
