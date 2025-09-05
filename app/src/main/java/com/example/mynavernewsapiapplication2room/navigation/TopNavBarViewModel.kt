@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.navigation
+package com.example.mynavernewsapiapplication2room.navigation
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

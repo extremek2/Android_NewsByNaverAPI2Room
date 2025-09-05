@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.retrofit
+package com.example.mynavernewsapiapplication2room.retrofit
 
 import retrofit2.http.GET
 import retrofit2.http.Headers

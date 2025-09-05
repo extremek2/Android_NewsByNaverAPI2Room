@@ -1,7 +1,7 @@
-package com.example.mynavernewsapiapplication.retrofit
+package com.example.mynavernewsapiapplication2room.retrofit
 
 
-import com.example.mynavernewsapiapplication.repository.RetrofitRepository
+import com.example.mynavernewsapiapplication2room.repository.RetrofitRepository
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

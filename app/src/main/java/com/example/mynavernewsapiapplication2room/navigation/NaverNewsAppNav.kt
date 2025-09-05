@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.navigation
+package com.example.mynavernewsapiapplication2room.navigation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -8,8 +8,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.mynavernewsapiapplication.ui.newsListScreen.NewsListScreen
-import com.example.mynavernewsapiapplication.ui.newswebview.NewsWebView
+import com.example.mynavernewsapiapplication2room.ui.newsListScreen.NewsListScreen
+import com.example.mynavernewsapiapplication2room.ui.newswebview.NewsWebView
 
 
 @Composable

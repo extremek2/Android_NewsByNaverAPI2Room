@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.navigation
+package com.example.mynavernewsapiapplication2room.navigation
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
@@ -30,7 +30,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.mynavernewsapiapplication.ui.theme.BabySharkTheme
+import com.example.mynavernewsapiapplication2room.ui.theme.BabySharkTheme
 
 
 @OptIn(ExperimentalMaterial3Api::class)

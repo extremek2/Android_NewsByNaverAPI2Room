@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication
+package com.example.mynavernewsapiapplication2room
 
 import org.junit.Test
 

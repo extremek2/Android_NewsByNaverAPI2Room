@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.navigation
+package com.example.mynavernewsapiapplication2room.navigation
 
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.NavigationBar
@@ -10,7 +10,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.navigation.NavController
-import com.example.mynavernewsapiapplication.ui.theme.BabySharkTheme
+import com.example.mynavernewsapiapplication2room.ui.theme.BabySharkTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.ui.theme
+package com.example.mynavernewsapiapplication2room.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

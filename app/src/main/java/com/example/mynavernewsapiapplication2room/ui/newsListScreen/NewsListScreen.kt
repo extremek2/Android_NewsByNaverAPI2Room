@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.ui.newsListScreen
+package com.example.mynavernewsapiapplication2room.ui.newsListScreen
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -20,7 +20,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import retrofit2.http.Query
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
@@ -33,6 +32,7 @@ fun NewsListScreen(
     query: String
     ) {
     val newsList by viewModel.newsList.collectAsState()
+
 
     LaunchedEffect(Unit) {
         viewModel.naverFetchNews(query)

@@ -1,4 +1,4 @@
-package com.example.mynavernewsapiapplication.ui.newswebview
+package com.example.mynavernewsapiapplication2room.ui.newswebview
 
 import android.webkit.WebView
 import android.webkit.WebViewClient

@@ -1,6 +1,5 @@
 package com.example.myloginapplication.ui.theme
 
-import androidx.compose.material3.Typography
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.text.TextStyle
@@ -8,7 +7,8 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.example.mynavernewsapiapplication.R
+import com.example.mynavernewsapiapplication2room.R
+
 
 private val pinkpongBabySharkFontStyle = FontFamily(
     Font(R.font.pinkfong_baby_shark_font_regular, weight = FontWeight.Normal),
